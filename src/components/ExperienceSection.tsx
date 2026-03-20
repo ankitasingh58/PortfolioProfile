@@ -16,7 +16,7 @@ export function ExperienceSection() {
     id: 3,
     role: 'React Developer',
     company: 'Technosys Services, Pvt. Ltd. Lucknow , Uttar Pradesh',
-    period: '2025 - present',
+    period: '2023 - present',
     description:
     'I am a passionate React Developer with experience in building modern, responsive web applications. I specialize in creating reusable UI components, managing application state efficiently, and integrating RESTful APIs to deliver seamless user experiences',
     tech: ['React.js','HTML5,CSS3','RESTful APIs Integration', 'React Hooks', 'Component-Based Architecture']

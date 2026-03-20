@@ -4,12 +4,12 @@ import { GithubIcon, ExternalLinkIcon, FolderIcon } from 'lucide-react';
 export function ProjectsSection() {
   const projects = [
   {
-    title: 'SchoolPulse',
+    title: 'SchoolPulse (School Monitoring System)',
     description:
     'A full-stack application built with ASP.NET Core Minimal API and React that enables school self-assessment, third-party verification, grading & scoring, and management of School Improvement Plans (SIP).',
     tech: ['React','Tailwind','ASP.NET Core', 'Minimal API', 'SQL Server'],
     // github: '#',
-    // live: '#'
+     live: 'https://schoolpulse.technosysservicesdemos.com/'
   },
   {
     title: 'Court Case Monitoring System',
@@ -17,15 +17,15 @@ export function ProjectsSection() {
     'A web-based application developed to track and manage court cases efficiently. The system allows users to monitor case details, hearing dates, status updates, and related documents in a centralized platform.',
     tech: ['.NET Framework', 'HTML / CSS', 'SQL Server'],
     // github: '#',
-    // live: '#'
+     live: 'https://ccms.basiceduup.in/'
   },
   {
-    title: 'PHQ Headquarters (HP)',
+    title: 'Law & Order Monitoring Framework',
     description:
     'A web-based dashboard application developed for PHQ Headquarters to generate and monitor daily crime and traffic reports. The system includes reports based on various legal acts and incident categories, helping authorities track cases.',
     tech: ['.NET Framework', 'HTML / CSS', 'SQL Server'],
     // github: '#',
-    // live: null
+     live: 'https://lomon.technosysservicesdemos.com/'
   },
   {
     title: 'Wedding Planner',
@@ -112,7 +112,7 @@ export function ProjectsSection() {
                 </div>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors">
-                  {project.title}
+                 <a href={project.live}>{project.title}</a> 
                 </h3>
 
                 <p className="text-gray-500 text-sm leading-relaxed mb-6 flex-grow">

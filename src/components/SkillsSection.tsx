@@ -80,15 +80,19 @@ export function SkillsSection() {
     {
       name: 'Git / GitHub',
       level: 60
-    }]
+    },
     // {
       // name: 'CI/CD (Actions/Pipelines)',
       // level: 70
     // },
-    // {
-      // name: 'Visual Studio',
-      // level: 90
-    // }]
+     {
+       name: 'Visual Studio',
+       level: 85
+     },
+    {
+      name:"VS Code",
+      level:85
+    }]
 
   }];
 
